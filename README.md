@@ -33,7 +33,7 @@ The dataset used in this project contains cell images categorized into two class
 Images are preprocessed using OpenCV. They are converted to grayscale and resized to a (70x70) shape. The dataset is loaded, and images are normalized to help the neural network learn faster. Data is split into training and testing sets, and shuffling is performed.
 
 ## Model Architecture
-The model architecture consists of convolution layers, activation functions, max-pooling layers, and fully connected layers. The output layer uses a sigmoid activation function for binary classification. Here's an overview of the model:
+The model architecture consists of convolution layers, activation functions, max-pooling layers, and fully connected layers. The output layer uses a sigmoid activation function for binary classification.
 ## Training
 
 The model is trained for 3 epochs with a batch size of 64. You can adjust these hyperparameters according to your requirements. The training process will output accuracy and loss values.
